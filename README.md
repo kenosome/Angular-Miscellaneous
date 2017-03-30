@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
+The styles are handled by bootstrap 4, so these are the steps to install:
+
+npm install --save jquery
+
+npm install --save tether
+
+npm install --save bootstrap@4.0.0-alpha.6
+
+Then, in .angular-cli.json
+
+      "styles": [
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.slim.min.js",
+        "../node_modules/tether/dist/js/tether.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ],
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
