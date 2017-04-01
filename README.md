@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
-The styles are handled by bootstrap 4, so these are the steps to install:
+The styles are handled by bootstrap 4 and font awesome, so these are the steps to install:
 
 npm install --save jquery
 
